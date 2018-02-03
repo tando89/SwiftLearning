@@ -100,6 +100,7 @@
                     </view>
                     <connections>
                         <outlet property="jsonTableView" destination="exy-zb-x7W" id="8ot-Xa-etG"/>
+                        <outlet property="titleLabel" destination="KTp-AN-drS" id="iZd-H2-qde"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

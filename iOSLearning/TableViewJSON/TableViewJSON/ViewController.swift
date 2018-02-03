@@ -11,18 +11,24 @@ import Alamofire
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
+    @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var jsonTableView: UITableView!
     var events: [[String: Any]] = [[String: Any]]()
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         Alamofire.request("https://feedback-server-tand089.c9users.io/events.php").responseJSON { (response) in
-            if let responseData = response.result.value as! [String: Any]? {
-                if let responseEvents = responseData["Event"] as! [[String: Any]]? {
-                    //print(responseEvents)
-                    self.events = responseEvents
-                    self.jsonTableView?.reloadData()
+            if response.result.isSuccess {
+                if let responseData = response.result.value as! [String: Any]? {
+                    if let responseEvents = responseData["Event"] as! [[String: Any]]? {
+                        //print(responseEvents)
+                        self.events = responseEvents
+                        self.jsonTableView?.reloadData()
+                    }
                 }
+            } else {
+                print("Error \(response.result.error)")
+                self.titleLabel?.text = "Network Error!"
             }
         }
         jsonTableView.delegate = self
