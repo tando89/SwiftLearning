@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27ACF2BA2026D2CA00770DAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ACF2B92026D2CA00770DAC /* AppDelegate.swift */; };
+		27ACF2BC2026D2CA00770DAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ACF2BB2026D2CA00770DAC /* ViewController.swift */; };
+		27ACF2BF2026D2CA00770DAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27ACF2BD2026D2CA00770DAC /* Main.storyboard */; };
+		27ACF2C12026D2CA00770DAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27ACF2C02026D2CA00770DAC /* Assets.xcassets */; };
+		27ACF2C42026D2CA00770DAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27ACF2C22026D2CA00770DAC /* LaunchScreen.storyboard */; };
+		3915F8F43A6E237DF7456C29 /* Pods_SubmisionForm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2A44A08337D28438FF5B9C /* Pods_SubmisionForm.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		27ACF2B62026D2CA00770DAC /* SubmisionForm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SubmisionForm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27ACF2B92026D2CA00770DAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		27ACF2BB2026D2CA00770DAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		27ACF2BE2026D2CA00770DAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27ACF2C02026D2CA00770DAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27ACF2C32026D2CA00770DAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		27ACF2C52026D2CA00770DAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		346821F39CBCF411184CFECD /* Pods-SubmisionForm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SubmisionForm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SubmisionForm/Pods-SubmisionForm.debug.xcconfig"; sourceTree = "<group>"; };
+		35F96D8EDE1C4CC6FE77268F /* Pods-SubmisionForm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SubmisionForm.release.xcconfig"; path = "Pods/Target Support Files/Pods-SubmisionForm/Pods-SubmisionForm.release.xcconfig"; sourceTree = "<group>"; };
+		FA2A44A08337D28438FF5B9C /* Pods_SubmisionForm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SubmisionForm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27ACF2B32026D2CA00770DAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3915F8F43A6E237DF7456C29 /* Pods_SubmisionForm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27ACF2AD2026D2CA00770DAC = {
+			isa = PBXGroup;
+			children = (
+				27ACF2B82026D2CA00770DAC /* SubmisionForm */,
+				27ACF2B72026D2CA00770DAC /* Products */,
+				82C3E94707770D0A7987BA8D /* Pods */,
+				600E22A68332153657DB8492 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		27ACF2B72026D2CA00770DAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27ACF2B62026D2CA00770DAC /* SubmisionForm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27ACF2B82026D2CA00770DAC /* SubmisionForm */ = {
+			isa = PBXGroup;
+			children = (
+				27ACF2B92026D2CA00770DAC /* AppDelegate.swift */,
+				27ACF2BB2026D2CA00770DAC /* ViewController.swift */,
+				27ACF2BD2026D2CA00770DAC /* Main.storyboard */,
+				27ACF2C02026D2CA00770DAC /* Assets.xcassets */,
+				27ACF2C22026D2CA00770DAC /* LaunchScreen.storyboard */,
+				27ACF2C52026D2CA00770DAC /* Info.plist */,
+			);
+			path = SubmisionForm;
+			sourceTree = "<group>";
+		};
+		600E22A68332153657DB8492 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA2A44A08337D28438FF5B9C /* Pods_SubmisionForm.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82C3E94707770D0A7987BA8D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				346821F39CBCF411184CFECD /* Pods-SubmisionForm.debug.xcconfig */,
+				35F96D8EDE1C4CC6FE77268F /* Pods-SubmisionForm.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27ACF2B52026D2CA00770DAC /* SubmisionForm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27ACF2C82026D2CA00770DAC /* Build configuration list for PBXNativeTarget "SubmisionForm" */;
+			buildPhases = (
+				8675A95E99FF3F2358BD099C /* [CP] Check Pods Manifest.lock */,
+				27ACF2B22026D2CA00770DAC /* Sources */,
+				27ACF2B32026D2CA00770DAC /* Frameworks */,
+				27ACF2B42026D2CA00770DAC /* Resources */,
+				CEBDEB1A49DA8D3E2767857B /* [CP] Embed Pods Frameworks */,
+				E9A72156BBE358AE151F9981 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SubmisionForm;
+			productName = SubmisionForm;
+			productReference = 27ACF2B62026D2CA00770DAC /* SubmisionForm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27ACF2AE2026D2CA00770DAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Tan Do ";
+				TargetAttributes = {
+					27ACF2B52026D2CA00770DAC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 27ACF2B12026D2CA00770DAC /* Build configuration list for PBXProject "SubmisionForm" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27ACF2AD2026D2CA00770DAC;
+			productRefGroup = 27ACF2B72026D2CA00770DAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27ACF2B52026D2CA00770DAC /* SubmisionForm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27ACF2B42026D2CA00770DAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27ACF2C42026D2CA00770DAC /* LaunchScreen.storyboard in Resources */,
+				27ACF2C12026D2CA00770DAC /* Assets.xcassets in Resources */,
+				27ACF2BF2026D2CA00770DAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8675A95E99FF3F2358BD099C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SubmisionForm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEBDEB1A49DA8D3E2767857B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SubmisionForm/Pods-SubmisionForm-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SubmisionForm/Pods-SubmisionForm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9A72156BBE358AE151F9981 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SubmisionForm/Pods-SubmisionForm-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27ACF2B22026D2CA00770DAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27ACF2BC2026D2CA00770DAC /* ViewController.swift in Sources */,
+				27ACF2BA2026D2CA00770DAC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		27ACF2BD2026D2CA00770DAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27ACF2BE2026D2CA00770DAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		27ACF2C22026D2CA00770DAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27ACF2C32026D2CA00770DAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27ACF2C62026D2CA00770DAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27ACF2C72026D2CA00770DAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27ACF2C92026D2CA00770DAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 346821F39CBCF411184CFECD /* Pods-SubmisionForm.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EPPQ37FGYE;
+				INFOPLIST_FILE = SubmisionForm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tando.SubmisionForm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27ACF2CA2026D2CA00770DAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35F96D8EDE1C4CC6FE77268F /* Pods-SubmisionForm.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EPPQ37FGYE;
+				INFOPLIST_FILE = SubmisionForm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tando.SubmisionForm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27ACF2B12026D2CA00770DAC /* Build configuration list for PBXProject "SubmisionForm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27ACF2C62026D2CA00770DAC /* Debug */,
+				27ACF2C72026D2CA00770DAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27ACF2C82026D2CA00770DAC /* Build configuration list for PBXNativeTarget "SubmisionForm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27ACF2C92026D2CA00770DAC /* Debug */,
+				27ACF2CA2026D2CA00770DAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27ACF2AE2026D2CA00770DAC /* Project object */;
+}
