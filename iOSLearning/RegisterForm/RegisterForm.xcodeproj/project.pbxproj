@@ -12,6 +12,7 @@
 		279BB0AB2028EB2E00E60170 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279BB0A92028EB2E00E60170 /* Main.storyboard */; };
 		279BB0AD2028EB2E00E60170 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 279BB0AC2028EB2E00E60170 /* Assets.xcassets */; };
 		279BB0B02028EB2E00E60170 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279BB0AE2028EB2E00E60170 /* LaunchScreen.storyboard */; };
+		279BB0B9202A280700E60170 /* inputsValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279BB0B8202A280700E60170 /* inputsValidation.swift */; };
 		5ED96B5CF27836D7602FCDC0 /* Pods_RegisterForm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C396EF53B79CA6F0921AA8E6 /* Pods_RegisterForm.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +25,7 @@
 		279BB0AC2028EB2E00E60170 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		279BB0AF2028EB2E00E60170 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		279BB0B12028EB2E00E60170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		279BB0B8202A280700E60170 /* inputsValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inputsValidation.swift; sourceTree = "<group>"; };
 		C396EF53B79CA6F0921AA8E6 /* Pods_RegisterForm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RegisterForm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2441A53723A114CF742F044 /* Pods-RegisterForm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RegisterForm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RegisterForm/Pods-RegisterForm.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -61,14 +63,39 @@
 		279BB0A42028EB2E00E60170 /* RegisterForm */ = {
 			isa = PBXGroup;
 			children = (
-				279BB0A52028EB2E00E60170 /* AppDelegate.swift */,
-				279BB0A72028EB2E00E60170 /* ViewController.swift */,
-				279BB0A92028EB2E00E60170 /* Main.storyboard */,
+				279BB0BB202A2B1300E60170 /* Controller */,
+				279BB0BA202A2B0A00E60170 /* View */,
+				279BB0B7202A27CF00E60170 /* ValidationForInputs */,
 				279BB0AC2028EB2E00E60170 /* Assets.xcassets */,
 				279BB0AE2028EB2E00E60170 /* LaunchScreen.storyboard */,
 				279BB0B12028EB2E00E60170 /* Info.plist */,
 			);
 			path = RegisterForm;
+			sourceTree = "<group>";
+		};
+		279BB0B7202A27CF00E60170 /* ValidationForInputs */ = {
+			isa = PBXGroup;
+			children = (
+				279BB0B8202A280700E60170 /* inputsValidation.swift */,
+			);
+			path = ValidationForInputs;
+			sourceTree = "<group>";
+		};
+		279BB0BA202A2B0A00E60170 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				279BB0A92028EB2E00E60170 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		279BB0BB202A2B1300E60170 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				279BB0A72028EB2E00E60170 /* ViewController.swift */,
+				279BB0A52028EB2E00E60170 /* AppDelegate.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		887A0FA3F370CAAFDFB12CCF /* Pods */ = {
@@ -220,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				279BB0A82028EB2E00E60170 /* ViewController.swift in Sources */,
+				279BB0B9202A280700E60170 /* inputsValidation.swift in Sources */,
 				279BB0A62028EB2E00E60170 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

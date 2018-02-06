@@ -13,6 +13,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var passwordEdit: UITextField!
     @IBOutlet weak var statusLabel: UILabel!
     let registerUrl = "https://feedback-server-tand089.c9users.io/Register.php"
+    //reference to the class
+    let validateEmail = inputsValidation()
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -26,8 +28,9 @@ class ViewController: UIViewController {
     @IBAction func registerBnt(_ sender: Any) {
         let emailAddress = emailEdit.text
         let passwordStr = passwordEdit.text
-        let goodEmail = isValidEmail(email: emailAddress)
-        let goodPassword = isValidPassword(testStr: passwordStr)
+        
+        let goodEmail = validateEmail.isValidEmail(email: emailAddress)
+        let goodPassword = validateEmail.isValidPassword(testStr: passwordStr)
         if goodEmail && goodPassword{
             print("Good")
             let parameters : Parameters = [
@@ -50,28 +53,7 @@ class ViewController: UIViewController {
         }
 
     }
-    //valid the input for email
-    func isValidEmail(email:String?) -> Bool {
-        
-        guard email != nil else { return false }
-        //There’s some text before the @
-        //There’s some text after the @
-        //There’s at least 2 alpha characters after a dot. E.g. .com, .jp, .edu
-        let regEx = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}"
-        
-        let pred = NSPredicate(format:"SELF MATCHES %@", regEx)
-        return pred.evaluate(with: email)
-    }
-    //valid the input password
-    func isValidPassword(testStr:String?) -> Bool {
-        guard testStr != nil else { return false }
-        // at least one uppercase,
-        // at least one digit
-        // at least one lowercase
-        // 8 characters total
-        let passwordTest = NSPredicate(format: "SELF MATCHES %@", "(?=.*[A-Z])(?=.*[0-9])(?=.*[a-z]).{8,}")
-        return passwordTest.evaluate(with: testStr)
-    }
+
     
     //Alert if email or pw is not valid
     func displayAlertMessage(messageToDisplay: String)
