@@ -70,12 +70,6 @@
                                     <action selector="registerBnt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6iV-gu-Lcc"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nXf-me-D3F">
-                                <rect key="frame" x="15" y="488.5" width="345" height="30"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.20392156859999999" green="0.28627450980000002" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -84,10 +78,8 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BdL-S1-hwg" secondAttribute="trailing" constant="15" id="8xr-Gv-xY9"/>
                             <constraint firstItem="EHo-Ot-PtH" firstAttribute="top" secondItem="RDa-Ie-vGC" secondAttribute="bottom" constant="20" id="CjN-bT-ddg"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RDa-Ie-vGC" secondAttribute="trailing" constant="15" id="DHa-Zb-329"/>
-                            <constraint firstItem="nXf-me-D3F" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="ElL-KK-CNf"/>
                             <constraint firstItem="RDa-Ie-vGC" firstAttribute="top" secondItem="BdL-S1-hwg" secondAttribute="bottom" constant="15" id="KNc-l2-Gbs"/>
                             <constraint firstItem="BdL-S1-hwg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="O68-G0-e3p"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nXf-me-D3F" secondAttribute="trailing" constant="15" id="OVc-bQ-QU8"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FSl-ze-CNK" secondAttribute="trailing" constant="15" id="Snu-Z1-bvI"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oTz-NV-1UI" secondAttribute="trailing" constant="15" id="VLj-6w-KJ1"/>
                             <constraint firstItem="RDa-Ie-vGC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="WF4-fZ-ztb"/>
@@ -97,7 +89,6 @@
                             <constraint firstItem="7Zz-cj-QI7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="dXd-Pd-pVp"/>
                             <constraint firstItem="7Zz-cj-QI7" firstAttribute="top" secondItem="Bvd-T2-bX3" secondAttribute="bottom" constant="15" id="fnG-wb-kU5"/>
                             <constraint firstItem="Bvd-T2-bX3" firstAttribute="top" secondItem="oTz-NV-1UI" secondAttribute="bottom" constant="15" id="fuu-S8-ma5"/>
-                            <constraint firstItem="nXf-me-D3F" firstAttribute="top" secondItem="FSl-ze-CNK" secondAttribute="bottom" constant="150" id="gUl-dx-ckF"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7Zz-cj-QI7" secondAttribute="trailing" constant="15" id="jHt-B3-Yjf"/>
                             <constraint firstItem="BdL-S1-hwg" firstAttribute="top" secondItem="7Zz-cj-QI7" secondAttribute="bottom" constant="15" id="nrq-0J-zuR"/>
                             <constraint firstItem="EHo-Ot-PtH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="ocJ-5E-dZ0"/>
